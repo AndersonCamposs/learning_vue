@@ -4,6 +4,7 @@ import OptionsAPI from "./components/OptionsAPI.vue"
 import ReactiveData from "./components/ReactiveData.vue";
 import ClassBinding from "./components/ClassBinding.vue";
 import ConditionalRendering from "./components/ConditionalRendering.vue";
+import ListRendering from "./components/ListRendering.vue";
 </script>
 
 <template>
@@ -16,6 +17,8 @@ import ConditionalRendering from "./components/ConditionalRendering.vue";
   <ClassBinding />
   <hr>
   <ConditionalRendering />
+  <hr>
+  <ListRendering />
 </template>
 
 <style scoped>
