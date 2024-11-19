@@ -7,6 +7,7 @@ import ConditionalRendering from "./components/ConditionalRendering.vue";
 import ListRendering from "./components/ListRendering.vue";
 import EventHandling from "./components/EventHandling.vue";
 import Whatchers from "./components/Whatchers.vue";
+import CustomComponent from "./components/CustomComponent.vue";
 </script>
 
 <template>
@@ -25,6 +26,9 @@ import Whatchers from "./components/Whatchers.vue";
   <EventHandling />
   <hr>
   <Whatchers />
+  <hr>
+  <h1>Componente customizado (props and emits)</h1>
+  <CustomComponent title="Dom Quixote" author-name="Miguel de Cervantes"/>
 </template>
 
 <style scoped>
