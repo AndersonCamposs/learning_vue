@@ -20,3 +20,25 @@ button:hover {
   background-color: #bab4b4;
   cursor: pointer;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form > * {
+  margin: 10px;
+}
+
+form button {
+  max-width: 10%;
+}
+
+form input {
+  border: 2px solid #000;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 1.5em;
+  max-width: 30%;
+}

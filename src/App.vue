@@ -6,6 +6,7 @@ import ClassBinding from "./components/ClassBinding.vue";
 import ConditionalRendering from "./components/ConditionalRendering.vue";
 import ListRendering from "./components/ListRendering.vue";
 import EventHandling from "./components/EventHandling.vue";
+import Whatchers from "./components/Whatchers.vue";
 </script>
 
 <template>
@@ -22,6 +23,8 @@ import EventHandling from "./components/EventHandling.vue";
   <ListRendering />
   <hr>
   <EventHandling />
+  <hr>
+  <Whatchers />
 </template>
 
 <style scoped>
